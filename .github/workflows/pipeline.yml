@@ -26,5 +26,6 @@ jobs:
 
             - name: "Install dependencies & starting webserver"
               run: |
+                pwd
                 npm install
                 npm run start
