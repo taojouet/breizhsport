@@ -23,9 +23,12 @@ jobs:
               run: |
                 cd /opt/breizhsport/breizhsport/backend
                 pwd
-
-            - name: "Install dependencies & starting webserver"
-              run: |
-                pwd
                 npm install
                 npm run start
+                pwd
+
+            # - name: "Install dependencies & starting webserver"
+            #   run: |
+            #     pwd
+            #     npm install
+            #     npm run start
