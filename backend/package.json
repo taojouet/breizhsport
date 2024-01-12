@@ -1,0 +1,23 @@
+{
+  "name": "breizhsport_api",
+  "version": "1.0.0",
+  "description": "The main API used by the frontend of the website Breizhsports.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taojouet/breizhsport.git"
+  },
+  "author": "Tao Jouet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taojouet/breizhsport/issues"
+  },
+  "homepage": "https://github.com/taojouet/breizhsport#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

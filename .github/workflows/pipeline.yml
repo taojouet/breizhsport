@@ -14,3 +14,14 @@ jobs:
 
         steps:
             - uses: actions/checkout@v2 
+
+            - name: Copy files to good workspace
+            - run: cp ./home/runner/_work/breizsport /ect/breizsport
+
+            - name: Change directory
+            - run: cd /ect/breizsport
+
+            - name: Install dependencies & starting webserver
+            - run: |
+                npm install
+                npm run start
