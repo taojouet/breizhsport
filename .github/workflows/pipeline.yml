@@ -20,7 +20,9 @@ jobs:
               run: sudo cp -r /home/pi/actions-runner/_work/breizhsport /opt/breizhsport
             
             - name: "Change directory"
-              run: cd /opt/breizhsport/breizhsport/backend
+              run: |
+                cd /opt/breizhsport/breizhsport/backend
+                pwd
 
             - name: "Install dependencies & starting webserver"
               run: |
