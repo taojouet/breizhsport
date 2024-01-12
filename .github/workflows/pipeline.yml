@@ -17,10 +17,10 @@ jobs:
               uses: actions/checkout@v2 
 
             - name: "Copy files to good workspace"
-              run: sudo cp -r /home/pi/actions-runner/_work/breizhsport /opt/breizsport
+              run: sudo cp -r /home/pi/actions-runner/_work/breizhsport /opt/breizhsport
             
             - name: "Change directory"
-              run: cd /opt/breizsport
+              run: cd /opt/breizhsport/breizhsport/backend
 
             - name: "Install dependencies & starting webserver"
               run: |
