@@ -17,7 +17,7 @@ jobs:
               uses: actions/checkout@v2 
 
             - name: "Copy files to good workspace"
-              run: sudo cp -r /home/pi/actions-runner/_work/breizhsport /opt/breizhsport
+              run: sudo cp -r /home/pi/actions-runner/_work/breizhsport /opt/
             
             - name: "Change directory"
               run: |
