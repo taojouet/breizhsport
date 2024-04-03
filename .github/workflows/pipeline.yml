@@ -13,15 +13,22 @@ jobs:
         runs-on: self-hosted
 
         steps:
-            - uses: actions/checkout@v2 
+            - name: "Checkout"
+              uses: actions/checkout@v2 
 
-            - name: Copy files to good workspace
-            - run: cp ./home/runner/_work/breizsport /ect/breizsport
+            - name: "Copy files to good workspace"
+              run: sudo cp -r /home/pi/actions-runner/_work/breizhsport /opt/
+            
+            - name: "Change directory"
+              run: |
+                cd /opt/breizhsport/breizhsport/backend
+                pwd
+                sudo npm install
+                sudo npm run start
+                pwd
 
-            - name: Change directory
-            - run: cd /ect/breizsport
-
-            - name: Install dependencies & starting webserver
-            - run: |
-                npm install
-                npm run start
+            # - name: "Install dependencies & starting webserver"
+            #   run: |
+            #     pwd
+            #     npm install
+            #     npm run start
