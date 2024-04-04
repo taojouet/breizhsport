@@ -50,9 +50,8 @@ export default function AuthenticationPage() {
           <div className="relative z-20 mt-auto">
             <blockquote className="space-y-2">
               <p className="text-lg font-bold bg-black bg-opacity-60">
-                &ldquo;Trouvez votre équilibre sur le court de la vie. Explorez
-                notre gamme d'habits et d'accessoires de sport pour une
-                connexion authentique et dynamique. Bienvenue sur notre terrain
+                &ldquo;Explorez
+                notre gamme d'équipements et d'accessoires de sport pour répondre à vos besoins sportifs. Bienvenue sur notre terrain
                 de jeu.&rdquo;
               </p>
               <footer className="text-sm font-bold">BreizhSport</footer>
