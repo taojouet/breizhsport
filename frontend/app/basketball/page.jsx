@@ -3,19 +3,19 @@ import { ArticlesCard } from "@/components/articleCard";
 import Image from "next/image";
 
 const article = [{
-    id: "0",
+    id: "6",
     nom: "Ballon",
     image: "/ballon_basket.jpg",
     prix: "70"
 },
 {
-    id: "1",
+    id: "7",
     nom: "Chaussures",
     image: "/chaussures_basket.png",
     prix: "110"
 },
 {
-    id: "2",
+    id: "8",
     nom: "Bandeau",
     image: "/bandeau_basket.jpg",
     prix: "10"

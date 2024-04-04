@@ -23,6 +23,16 @@ const sport = [{
   nom: "Boxe",
   image: "/boxe.jpg"
 },
+{
+  id: "4",
+  nom: "Rugby",
+  image: "/rugby.webp"
+},
+{
+  id: "5",
+  nom: "Golf",
+  image: "/golf.webp"
+},
 
 ]
 

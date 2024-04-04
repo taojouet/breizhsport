@@ -3,13 +3,13 @@ import { ArticlesCard } from "@/components/articleCard";
 import Image from "next/image";
 
 const article = [{
-    id: "0",
+    id: "9",
     nom: "Gants",
     image: "/gants_boxe.png",
     prix: "30"
 },
 {
-    id: "1",
+    id: "10",
     nom: "Bandes poignets",
     image: "/bandes_boxe.webp",
     prix: "9"
